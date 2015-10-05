@@ -4,6 +4,7 @@ import os
 import shutil
 import sys
 import SocketServer
+import webbrowser
 
 from pelican.server import ComplexHTTPRequestHandler
 
@@ -21,7 +22,7 @@ env.cloudfiles_api_key = 'my_rackspace_api_key'
 env.cloudfiles_container = 'my_cloudfiles_container'
 
 # Github Pages configuration
-env.github_pages_branch = "gh-pages"
+env.github_pages_branch = "master"
 
 # Port for `serve`
 PORT = 8000
@@ -60,6 +61,7 @@ def serve():
 def reserve():
     """`build`, then `serve`"""
     build()
+    webbrowser.open('http://localhost:8000')
     serve()
 
 def preview():
@@ -76,7 +78,7 @@ def cf_upload():
               'upload -c {cloudfiles_container} .'.format(**env))
 
 @hosts(production)
-def publish():
+def publish_rsync():
     """Publish to production via rsync"""
     local('pelican -s publishconf.py')
     project.rsync_project(
@@ -87,8 +89,8 @@ def publish():
         extra_opts='-c',
     )
 
-def gh_pages():
+def publish():
     """Publish to GitHub Pages"""
-    rebuild()
+    local('pelican -s publishconf.py')
     local("ghp-import -b {github_pages_branch} {deploy_path}".format(**env))
     local("git push origin {github_pages_branch}".format(**env))

@@ -2,15 +2,28 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'\u53f0\u7063\u958b\u767c\u8005'
-SITENAME = u'\u53f0\u7063\u958b\u767c\u8005\u6587\u6458'
-SITEURL = ''
+import os
+import sys
+
+curdir = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(curdir)
+
+
+AUTHOR = u'台灣開發者'
+SITENAME = u'台灣開發者文摘'
+SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 
 TIMEZONE = 'Asia/Taipei'
 
 DEFAULT_LANG = u'zh'
+
+DATE_FORMATS = {
+    'en': '%a, %d %b %Y',
+    'zh': '%Y年%m月%d日',
+}
+HTML_LANG = u'zh-tw'
 
 USE_FOLDER_AS_CATEGORY = False
 DEFAULT_CATEGORY = 'Others'
@@ -66,21 +79,71 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+SLUGIFY_SOURCE = 'basename'  # basename: filename, title: title metadata
+
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('台灣開發者文摘臉書社團', 'https://www.facebook.com/groups/developers.tw/'),
+         ('程式人雜誌臉書社團', 'https://www.facebook.com/groups/programmerMagazine/'),
+         ('Python Taiwan 臉書社團', 'https://www.facebook.com/groups/pythontw/'),
+         )
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+# SOCIAL = (('You can add links in your config file', '#'),
+#          ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
 
+RELATIVE_URLS = False
 
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+STATIC_PATHS = ['static', 'media', ]
+EXTRA_PATH_METADATA = {'static/CNAME': {'path': 'CNAME'},
+                       'static/robots.txt': {'path': 'robots.txt'},
+                       'static/favicon.ico': {'path': 'favicon.ico'},
+                       }
+
+DIRECT_TEMPLATES = ['index', 'categories', 'authors', 'archives', 'tags', 'search']
+
 
 THEME = 'themes/pelican-bootstrap3'
 
+BOOTSTRAP_THEMES = ['amelia', 'cerulean', 'cosmo', 'united']
+BOOTSTRAP_THEME = BOOTSTRAP_THEMES[2]
+BOOTSTRAP_FLUID = False
+BOOTSTRAP_NAVBAR_INVERSE = False
+FAVICON = 'favicon.ico'
+
+BANNER = "media/banner.png"
+
+USE_OPEN_GRAPH = True
+OPEN_GRAPH_IMAGE = 'media/site-image.png'
+OPEN_GRAPH_DESC = '專為台灣開發者成立的非營利網站，目的在輔助《台灣開發者文摘》臉書社團。'
+
+
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['tag_cloud', 'sitemap', 'cjk-auto-spacing', 'related_posts', ]
+PLUGINS += ['tipue_search', 'thumbnailer', 'assets', ]
+
+
+
+## Sitemap plugin
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 0.5,
+        'indexes': 0.5,
+        'pages': 0.5
+    },
+    'changefreqs': {
+        'articles': 'monthly',
+        'indexes': 'daily',
+        'pages': 'monthly'
+    }
+}
+
+
+## Thumbnailer
+IMAGE_PATH = 'media'
+THUMBNAIL_DIR = 'thumbnails'
+THUMBNAIL_KEEP_TREE = True
+THUMBNAIL_KEEP_NAME = True
+THUMBNAIL_SIZES = {'small': '240x160'}
