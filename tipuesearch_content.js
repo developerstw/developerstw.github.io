@@ -1,0 +1,1 @@
+var tipuesearch = {"pages":[{"url":"https://developers.tw/about/","text":"「 台灣開發者文摘 」 是專為台灣開發者成立的非營利網站 ， 主要目的在收集開發者的部落格 ， 以方便技術文章的交流 。","tags":"Others","title":"關於"}]};
