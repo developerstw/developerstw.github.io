@@ -1,0 +1,116 @@
+body {
+    font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif, 微軟正黑體, "Microsoft JhengHei", "儷黑 Pro", "LiHei Pro Medium";
+    font-size: 1.4em;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif, 微軟正黑體, "Microsoft JhengHei", "儷黑 Pro", "LiHei Pro Medium";
+}
+
+
+div .summary {
+    display: inline-block;
+}
+
+.img-thumbnail {
+    background-color: transparent;
+    border: transparent;
+    max-width: 240px;
+}
+
+
+.article-image {
+    margin: 0 auto;
+}
+
+
+.featured-image {
+    max-width: 100%;
+    height: auto;
+//    display: inline-block;
+    margin: 0 10px 10px 10px;
+  }
+
+
+.featured-image  p {
+    margin: 0;
+    padding-top: 0.5em;
+}
+
+.featured-image  small:before {
+    content: '\2014 \00A0';
+}
+
+.featured-image small {
+    width: 100%;
+    text-align: right;
+    display: inline-block;
+    color: #999;
+}
+
+
+div .author {
+    width: 100%;
+    display: inline-block;
+}
+
+div .author_photo {
+    width: 80px;
+    margin: 0 5px;
+}
+
+.avatar-80 {
+    height: 80px;
+    width: 80px;
+}
+
+.featured-thumbnail {
+    max-width: 160px;
+}
+
+div .thumbnail {
+    margin: 5px 5px 10px;
+}
+
+div .summary {
+    font-size: 17px;
+}
+
+div .entry-content {
+    font-size: 17px;
+}
+
+
+div.sidebar {
+  margin: 0 0 0.5em 1em ;
+//  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  font-size: 15px;
+  float: right ;
+  clear: right;
+}
+
+
+blockquote {
+    border-left: 5px solid #dd4814;
+    background-color: #eeeeee;
+}
+
+@media (max-width: 480px) {
+    .thumbnail-container {
+        display: block;
+        clear: both;
+        margin: 0 5px 5px 5px;
+    }
+}
+
+@media (min-width: 481px) {
+    .thumbnail-container {
+        float: left;
+        display: block;
+        margin: 0 5px 5px 5px;
+    }
+}
+

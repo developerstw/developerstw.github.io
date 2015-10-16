@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="zh-tw"   prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
+<head>
+    <title>我是山姆鍋 - 這是我的個人部落格。</title>
+    <script type="text/javascript">
+        var host = "samkuo.me";
+        if ((host == window.location.host) && (window.location.protocol != "https:"))
+            window.location.protocol = "https";
+    </script>
+    <!-- Using the latest rendering mode for IE -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="https://samkuo.me/images/favicon.png" rel="icon">
+    <link rel="apple-touch-icon" href="https://samkuo.me/images/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="https://samkuo.me/images/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="https://samkuo.me/images/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="https://samkuo.me/images/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="https://samkuo.me/images/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="https://samkuo.me/images/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="https://samkuo.me/images/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="https://samkuo.me/images/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://samkuo.me/images/apple-touch-icon-180x180.png" />
+<link rel="canonical" href="https://samkuo.me">
+
+    <meta name="author" content="Sampot (山姆鍋)" />
+    <meta name="description" content="我是山姆鍋，過去擔任過軟體工程師、系統分析師、架構師、研發副總等工作。 「我是山姆鍋」是我的個人部落格，記錄與分享一些軟體開發與運營相關資訊，偶爾也會碎念一下。" />
+    <meta name="keywords" content="agile, lean, software development, testing, deployment, delivery, integration, operations" />
+
+
+    <!-- Open Graph tags -->
+            <meta property="fb:app_id" content="109832189371155"/>
+            <meta property="og:site_name" content="我是山姆鍋" />
+            <meta property="og:type" content="website"/>
+            <meta property="og:title" content="我是山姆鍋"/>
+            <meta property="og:url" content="https://samkuo.me"/>
+            <meta property="og:description" content="山姆鍋的個人部落格，記錄與分享一些軟體開發與運營相關資訊，偶爾也會碎念一下。"/>
+            <meta property="og:image"
+                  content="https://samkuo.me/media/featured_image.jpg"/>
+
+            <meta name="twitter:card" content="summary">
+            <meta name="twitter:site" content="@sampotkuo">
+            <meta name="twitter:creator" content="@sampotkuo">
+            <meta name="twitter:domain" content="https://samkuo.me">
+            <meta name="twitter:image" content="https://samkuo.me/media/featured_image.jpg"/>
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://samkuo.me/theme/css/bootstrap.united.min.css" type="text/css"/>
+    <link href="https://samkuo.me/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="https://samkuo.me/theme/css/pygments/monokai.css" rel="stylesheet">
+    <link href="https://samkuo.me/theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://samkuo.me/theme/css/style.css" type="text/css"/>
+        <link href="https://samkuo.me/static/custom.css" rel="stylesheet">
+        <link href="https://samkuo.me/theme/css/shariff/shariff.min.css" rel="stylesheet">
+
+        <link href="http://feeds.feedburner.com/samkuo/me.xml" type="application/atom+xml" rel="alternate"
+              title="我是山姆鍋 ATOM Feed"/>
+
+
+
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="https://samkuo.me/" class="navbar-brand">
+<img src="https://samkuo.me/images/logo32.png" width="32" alt="logo"/> 我是山姆鍋            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="https://samkuo.me/sitemap/">
+                             網站導覽
+                          </a></li>
+                         <li><a href="https://samkuo.me/series/">
+                             系列文章
+                          </a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><span>
+                <form id='tipue_search_bar' class="navbar-search" action="/search.html">
+                  <input type="text" class="search-query" placeholder="搜尋文章" name="q" id="tipue_search_input" required>
+                </form></span>
+              </li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-book"></i><span class="icon-label">分類</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/category/software-development/">軟體開發</a></li>
+                        <li><a href="/category/service-operations/">服務運營</a></li>
+                        <li><a href="/category/system-architecture/">系統架構</a></li>
+                        <li><a href="/category/customer-support/">客戶服務</a></li>
+                        <li><a href="/category/teamwork/">團隊合作</a></li>
+                        <li><a href="/category/internet-marketing/">網路行銷</a></li>
+                        <li><a href="/category/others/">其他文章</a></li>
+                    </ul>
+                </li>
+
+              <li><a href="https://samkuo.me/archive/"><i class="fa fa-th-list"></i><span class="icon-label">匯整</span></a></li>
+              <li><a href="http://feeds.feedburner.com/samkuo/me.xml"><i class="fa fa-rss"></i><span class="icon-label">訂閱</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<style>
+	#banner{
+	    background-image:url("https://samkuo.me/images/banner.png");
+	}
+</style>
+
+<div id="banner">
+	<div class="container">
+		<div class="copy">
+			<h1>我是山姆鍋</h1>
+
+				<p class="intro">這是我的個人部落格，作為生活與工作的紀錄。</p>
+		</div>
+	</div>
+</div><!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+    <div><blockquote><a target='_blank' href="https://www.facebook.com/groups/developers.tw/">歡迎加入《 台灣開發者文摘 》臉書社團</a></blockquote>
+    </div>
+            <article class="'clearfix">
+                <h2><a href="https://samkuo.me/post/2015/10/thoughts-about-p2p-media-streaming-mobile-network/">點對點媒體串流在行動網路的一些構想</a></h2>
+                    <div class="well well-sm">
+<footer class="post-info">
+    <span class="label label-default">日期</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time itemprop="datePublished" datetime="2015-10-05T10:14:00+08:00"> 2015年10月05日</time>
+    </span>
+
+<span class="label label-default"><small><a href="https://samkuo.me/post/2015/10/thoughts-about-p2p-media-streaming-mobile-network/#disqus_thread" data-disqus-identifier="thoughts-about-p2p-media-streaming-mobile-network">檢視評論</a></small></span>
+
+
+
+
+<span class="label label-default">標籤</span>
+	<a href="https://samkuo.me/tag/mobile/">Mobile</a>
+        /
+	<a href="https://samkuo.me/tag/network/">Network</a>
+        /
+	<a href="https://samkuo.me/tag/p2p/">P2P</a>
+        /
+	<a href="https://samkuo.me/tag/streaming/">Streaming</a>
+
+</footer><!-- /.post-info -->                    </div>
+                <div class="summary">
+                      <div class="thumbnail-container"><a href="https://samkuo.me/post/2015/10/thoughts-about-p2p-media-streaming-mobile-network/"><img class="img-thumbnail" src="/thumbnails/small/shared/P2ptv.PNG" alt="thumbnail"/></a></div>
+                    <p> 隨著網際網路媒體串流的流行以及同時觀眾數量不斷增加 ， 要架構出一個支援實況 (live) 媒體串流 (streaming) 的解決方案 ，
+ 是一件越來越困難的技術挑戰 。 本文描述一個基於點對點 (peer-to-peer) 的方式進行媒體串流的行動網路架構 ，
+ 以減輕對媒體源 (media origin) 的負擔並減少頻寬的成本 。</p>
+
+                    <a class="btn btn-default btn-xs pull-right" href="https://samkuo.me/post/2015/10/thoughts-about-p2p-media-streaming-mobile-network/">閱讀全文 ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article class="'clearfix">
+                <h2><a href="https://samkuo.me/post/2015/10/design-a-simple-actor-framework-with-python/">使用 Python 設計一個參與者模式框架</a></h2>
+                    <div class="well well-sm">
+<footer class="post-info">
+    <span class="label label-default">日期</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time itemprop="datePublished" datetime="2015-10-04T21:57:00+08:00"> 2015年10月04日</time>
+    </span>
+
+<span class="label label-default"><small><a href="https://samkuo.me/post/2015/10/design-a-simple-actor-framework-with-python/#disqus_thread" data-disqus-identifier="design-a-simple-actor-framework-with-python">檢視評論</a></small></span>
+
+
+
+
+<span class="label label-default">標籤</span>
+	<a href="https://samkuo.me/tag/actor/">Actor</a>
+        /
+	<a href="https://samkuo.me/tag/framework/">Framework</a>
+        /
+	<a href="https://samkuo.me/tag/python/">Python</a>
+
+</footer><!-- /.post-info -->                    </div>
+                <div class="summary">
+                      <div class="thumbnail-container"><a href="https://samkuo.me/post/2015/10/design-a-simple-actor-framework-with-python/"><img class="img-thumbnail" src="/thumbnails/small/shared/hexagon-37436_640.png" alt="thumbnail"/></a></div>
+                    <p> 山姆鍋在過去的文章中 ， 數次提到 「 參與者模式 (Actor Model)」 這個名詞 ， 也使用  <a class="reference external" href="/post/2015/10/what-if-i-have-shadow-clones/"> 比喻的方式 </a>
+ 解釋它的概念 。 在多種分散式編程模式中 ， 對山姆鍋來說 ， 這是最不會讓頭腦打結的方法 。</p>
+
+                    <a class="btn btn-default btn-xs pull-right" href="https://samkuo.me/post/2015/10/design-a-simple-actor-framework-with-python/">閱讀全文 ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article class="'clearfix">
+                <h2><a href="https://samkuo.me/post/2015/10/persistent-message-queues-with-lmdb/">如何實作簡單的持久性訊息佇列?</a></h2>
+                    <div class="well well-sm">
+<footer class="post-info">
+    <span class="label label-default">日期</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time itemprop="datePublished" datetime="2015-10-03T21:33:00+08:00"> 2015年10月03日</time>
+    </span>
+
+<span class="label label-default"><small><a href="https://samkuo.me/post/2015/10/persistent-message-queues-with-lmdb/#disqus_thread" data-disqus-identifier="persistent-message-queues-with-lmdb">檢視評論</a></small></span>
+
+
+
+
+<span class="label label-default">標籤</span>
+	<a href="https://samkuo.me/tag/message/">Message</a>
+        /
+	<a href="https://samkuo.me/tag/queue/">Queue</a>
+        /
+	<a href="https://samkuo.me/tag/lmdb/">LMDB</a>
+        /
+	<a href="https://samkuo.me/tag/gevent/">gevent</a>
+        /
+	<a href="https://samkuo.me/tag/python/">Python</a>
+
+</footer><!-- /.post-info -->                    </div>
+                <div class="summary">
+                      <div class="thumbnail-container"><a href="https://samkuo.me/post/2015/10/persistent-message-queues-with-lmdb/"><img class="img-thumbnail" src="/thumbnails/small/shared/keyboard-848527_640.jpg" alt="thumbnail"/></a></div>
+                    <p> 有時候在需要訊息傳遞的應用場景 ， 因為需求簡單不想使用到像  RabbitMQ  這種企業級的訊息中介軟體 (middleware)，
+ 使用  Redis  雖然夠簡單但畢竟還是需要執行另一個進程 (process)， 總還是有殺雞用牛刀的感覺 。
+ 但是另一方面又有訊息不能遺失的需求 ， 自己處理訊息持久性 (persistence) 實在麻煩 ，
+ 畢竟訊息儲存還是要支援  <a class="reference external" href="https://zh.wikipedia.org/wiki/ACID">ACID</a>  特性才能號稱做到不遺失 。</p>
+
+                    <a class="btn btn-default btn-xs pull-right" href="https://samkuo.me/post/2015/10/persistent-message-queues-with-lmdb/">閱讀全文 ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article class="'clearfix">
+                <h2><a href="https://samkuo.me/post/2015/10/how-to-find-ip-addresses-with-python/">Python 如何找到綁定的 IP 位址？</a></h2>
+                    <div class="well well-sm">
+<footer class="post-info">
+    <span class="label label-default">日期</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time itemprop="datePublished" datetime="2015-10-03T17:12:00+08:00"> 2015年10月03日</time>
+    </span>
+
+<span class="label label-default"><small><a href="https://samkuo.me/post/2015/10/how-to-find-ip-addresses-with-python/#disqus_thread" data-disqus-identifier="how-to-find-ip-addresses-with-python">檢視評論</a></small></span>
+
+
+
+
+<span class="label label-default">標籤</span>
+	<a href="https://samkuo.me/tag/python/">Python</a>
+        /
+	<a href="https://samkuo.me/tag/ip/">IP</a>
+        /
+	<a href="https://samkuo.me/tag/address/">Address</a>
+
+</footer><!-- /.post-info -->                    </div>
+                <div class="summary">
+                      <div class="thumbnail-container"><a href="https://samkuo.me/post/2015/10/how-to-find-ip-addresses-with-python/"><img class="img-thumbnail" src="/thumbnails/small/featured_image.jpg" alt="thumbnail"/></a></div>
+                    <p> 使用  Python  建立  Socket  物件並綁定 (bind) 到網卡後 ， 該如何取得實際綁定的 IP 位址 ？ 這個問題
+ 多數人都會覺得簡單 ， 但真的有這麼容易嗎 ?</p>
+
+                    <a class="btn btn-default btn-xs pull-right" href="https://samkuo.me/post/2015/10/how-to-find-ip-addresses-with-python/">閱讀全文 ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article class="'clearfix">
+                <h2><a href="https://samkuo.me/post/2015/10/what-if-i-have-shadow-clones/">假如我會多重影分身之術</a></h2>
+                    <div class="well well-sm">
+<footer class="post-info">
+    <span class="label label-default">日期</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time itemprop="datePublished" datetime="2015-10-02T08:24:00+08:00"> 2015年10月02日</time>
+    </span>
+
+<span class="label label-default"><small><a href="https://samkuo.me/post/2015/10/what-if-i-have-shadow-clones/#disqus_thread" data-disqus-identifier="what-if-i-have-shadow-clones">檢視評論</a></small></span>
+
+
+
+
+<span class="label label-default">標籤</span>
+	<a href="https://samkuo.me/tag/shadow/">Shadow</a>
+        /
+	<a href="https://samkuo.me/tag/clone/">Clone</a>
+        /
+	<a href="https://samkuo.me/tag/actor/">Actor</a>
+        /
+	<a href="https://samkuo.me/tag/model/">Model</a>
+
+</footer><!-- /.post-info -->                    </div>
+                <div class="summary">
+                      <div class="thumbnail-container"><a href="https://samkuo.me/post/2015/10/what-if-i-have-shadow-clones/"><img class="img-thumbnail" src="/thumbnails/small/shared/silhouettes-439150_640.jpg" alt="thumbnail"/></a></div>
+                    <p> 山姆鍋從小就愛看漫畫 ， 雖然隨著年紀看的量越來越少 ， 不過幾部熱門的漫畫可是都有在關注 。
+「 火影忍者 」 雖然已經完結 ， 但漩渦鳴人的 「 影分身 」 術  --  抱歉 ， 是 「 多重影分身 」 之術還是留下
+ 深刻印象 。 常常在想 ， 假如我有多重影分身術 ， 那會是什麼光景 ！</p>
+
+                    <a class="btn btn-default btn-xs pull-right" href="https://samkuo.me/post/2015/10/what-if-i-have-shadow-clones/">閱讀全文 ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article class="'clearfix">
+                <h2><a href="https://samkuo.me/post/2015/09/why-developers-should-have-a-blog/">程式人就該有個部落格</a></h2>
+                    <div class="well well-sm">
+<footer class="post-info">
+    <span class="label label-default">日期</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time itemprop="datePublished" datetime="2015-09-29T20:38:00+08:00"> 2015年09月29日</time>
+    </span>
+
+<span class="label label-default"><small><a href="https://samkuo.me/post/2015/09/why-developers-should-have-a-blog/#disqus_thread" data-disqus-identifier="why-developers-should-have-a-blog">檢視評論</a></small></span>
+
+
+
+
+<span class="label label-default">標籤</span>
+	<a href="https://samkuo.me/tag/pelican/">Pelican</a>
+        /
+	<a href="https://samkuo.me/tag/github/">GitHub</a>
+        /
+	<a href="https://samkuo.me/tag/blog/">Blog</a>
+
+</footer><!-- /.post-info -->                    </div>
+                <div class="summary">
+                      <div class="thumbnail-container"><a href="https://samkuo.me/post/2015/09/why-developers-should-have-a-blog/"><img class="img-thumbnail" src="/thumbnails/small/shared/blog-489504_640.jpg" alt="thumbnail"/></a></div>
+                    <p> 在臉書上跟大家討論為什麼沒有多少人在分享文章 ， 我指的是原創的文章 。 雖然很難用單一理由解釋原因 ，
+ 但山姆鍋深信部落格還是有它存在的用處 ， 也相信程式人就該有個部落格 。</p>
+
+                    <a class="btn btn-default btn-xs pull-right" href="https://samkuo.me/post/2015/09/why-developers-should-have-a-blog/">閱讀全文 ...</a>
+                </div>
+            </article>
+            <hr/>
+
+        <ul class="pager">
+                <li class="previous disabled"><a href="#">&larr; 較新</a></li>
+                <li class="next"><a
+                        href="https://samkuo.me/page/2/">較舊 &rarr;</a></li>
+        </ul>
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+
+<section class="well well-sm">
+
+    <ul class="list-group list-group-flush">
+
+            <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">最新文章</span></h4>
+                <ul class="list-group" id="recentposts">
+                    <li class="list-group-item">
+                        <a href="https://samkuo.me/post/2015/10/thoughts-about-p2p-media-streaming-mobile-network/">
+                            點對點媒體串流在行動網路的一些構想
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://samkuo.me/post/2015/10/design-a-simple-actor-framework-with-python/">
+                            使用 Python 設計一個參與者模式框架
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://samkuo.me/post/2015/10/persistent-message-queues-with-lmdb/">
+                            如何實作簡單的持久性訊息佇列?
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://samkuo.me/post/2015/10/how-to-find-ip-addresses-with-python/">
+                            Python 如何找到綁定的 IP 位址？
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://samkuo.me/post/2015/10/what-if-i-have-shadow-clones/">
+                            假如我會多重影分身之術
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://samkuo.me/post/2015/09/why-developers-should-have-a-blog/">
+                            程式人就該有個部落格
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://samkuo.me/post/2015/09/experiment-with-python-sandbox/">
+                            Python 的沙盒實驗
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://samkuo.me/post/2015/09/why-time-uuid/">
+                            什麼時候適合用 TimeUUID?
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://samkuo.me/post/2015/09/architecture-design-of-highly-scalable-task-execution/">
+                            高可擴展的任務執行架構設計
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://samkuo.me/post/2015/09/architecture-requirements-of-highly-scalable-task-execution/">
+                            高可擴展的任務執行架構需求
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+
+            <li class="list-group-item"><a href="https://samkuo.me/tag/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">標籤</span></h4></a>
+                <ul class="list-group " id="tags">
+                    <li class="list-group-item tag-1">
+                        <a href="https://samkuo.me/tag/octopress/">
+                            Octopress
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-1">
+                        <a href="https://samkuo.me/tag/cloud-service/">
+                            Cloud service
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-1">
+                        <a href="https://samkuo.me/tag/infrastructure/">
+                            Infrastructure
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-1">
+                        <a href="https://samkuo.me/tag/python/">
+                            Python
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-1">
+                        <a href="https://samkuo.me/tag/security/">
+                            security
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-1">
+                        <a href="https://samkuo.me/tag/development/">
+                            Development
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-1">
+                        <a href="https://samkuo.me/tag/operations/">
+                            Operations
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-1">
+                        <a href="https://samkuo.me/tag/vagrant/">
+                            Vagrant
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-1">
+                        <a href="https://samkuo.me/tag/ubuntu/">
+                            ubuntu
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-2">
+                        <a href="https://samkuo.me/tag/puppet/">
+                            Puppet
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+
+            <li class="list-group-item"><h4><i class="fa fa-comments fa-lg"></i><span class="icon-label">最新評論</span></h4>
+                <div id="RecentComments" class="dsq-widget">
+                  <script type="text/javascript" src="https://sampotkuo.disqus.com/recent_comments_widget.js?num_items=5&hide_mods=0&hide_avatars=0&avatar_size=32&excerpt_length=100"></script>
+                </div>
+            </li>    </ul>
+</section>
+            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="well well-lg" id="footer-well">
+      <div class="container">
+      <div class="row">
+           <div class="col-sm-4">
+               <h3 class="fa fa-twitter fa-lg" style="margin-bottom:0.5px;">我的推文</h3>
+               <div id="twitter_timeline">
+                 <a class="twitter-timeline" data-chrome="noheader" href="https://twitter.com/sampotkuo" data-widget-id="637054653071396864">sampotkuo 發送的推文</a>
+               </div>
+               <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+           </div>
+           <div class="col-sm-3">
+    <h3 class="fa fa-github fa-lg" style="margin-bottom:0.5px;">GitHub 倉庫</h3>
+    <ul style="list-style-type:circle">
+        <li>
+            <a href="https://github.com/sampot/avashell" target="_blank">avashell</a>
+            <p><small>A system tray application to run a Python script on start up.</small></p>
+        </li>
+        <li>
+            <a href="https://github.com/sampot/avashell-pyside" target="_blank">avashell-pyside</a>
+            <p><small>The demo app for PySide system tray icon</small></p>
+        </li>
+        <li>
+            <a href="https://github.com/sampot/pelican-appcache" target="_blank">pelican-appcache</a>
+            <p><small>HTML5 application cache manifest generator for Pelican</small></p>
+        </li>
+        <li>
+            <a href="https://github.com/sampot/pelican-clean_summary" target="_blank">pelican-clean_summary</a>
+            <p><small>My custom clean_summary plugin for Pelican</small></p>
+        </li>
+        <li>
+            <a href="https://github.com/sampot/pylonghair" target="_blank">pylonghair</a>
+            <p><small>The wrapper for https://github.com/catid/longhair for Python</small></p>
+        </li>
+    </ul>
+           </div>
+
+           <div class="col-sm-2">
+               <h3 class="fa fa-external-link-square fa-lg" style="margin-bottom:0.5px;">我的連結</h3>
+               <br/>
+               <ul style="list-style-type:circle">
+                  <li>
+                    <a href="http://eavatar.com/" target="_blank">影化身科技</a>
+                  </li>
+                  <li>
+                    <a href="http://www.ubitus.net/tw/" target="_blank">優必達科技</a>
+                  </li>
+                  <li>
+                    <a href="http://www.8888play.com/" target="_blank">伊凡達科技</a>
+                  </li>
+                  <li>
+                    <a href="http://www.honghutech.com/" target="_blank">鴻鵠國際</a>
+                  </li>
+                  <li>
+                    <a href="http://www.fullerton.com.tw/" target="_blank">富爾特科技</a>
+                  </li>
+               </ul>
+
+               <br/>
+               <h3 class="fa fa-home fa-lg">我的社群</h3>
+               <ul id="social_footer" style="list-style-type:circle">
+                  <li><a href="http://github.com/sampot" target="_blank"><i class="fa fa-github-square fa-lg"></i> GitHub</a></li>
+                  <li><a href="https://twitter.com/sampotkuo" target="_blank"><i class="fa fa-twitter-square fa-lg"></i> Twitter</a></li>
+                  <li><a href="http://tw.linkedin.com/in/sampot" target="_blank"><i class="fa fa-linkedin-square fa-lg"></i> LinkedIn</a></li>
+                  <li><a href="https://www.facebook.com/eavatarme2" target="_blank"><i class="fa fa-facebook-square fa-lg"></i> Facebook</a></li>
+                </ul>
+
+           </div>
+
+           <div class="col-sm-3">
+<div id="aboutme">
+	<h3 class="fa fa-user fa-lg" style="margin-bottom:0.5px;">我的簡介</h3><br/>
+        <p>
+            <img width="60%" class="img-thumbnail center-block" src="https://samkuo.me/images/headshot.png" alt="headshot"/>
+        </p>
+    <p>
+我是山姆鍋，過去擔任過軟體工程師、系統分析師、架構師、研發副總等工作。
+「我是山姆鍋」是我的個人部落格，記錄與分享一些軟體開發與運營相關資訊，偶爾也會碎念一下。<br/><br/>
+關於我的進一步資訊，您可以:
+<p>
+<a href="/about/" class="btn btn-default btn-xs" role="button">參考這裏</a> 或者
+<a href='/contact/'  class="btn btn-default btn-xs" role="button">與我聯繫</a></p>
+</div>           </div>
+      </div>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2015 Sampot
+            &middot; Powered by <a href="http://python.org/" target="_blank">Python</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            a customized <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
+            <br/>
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW"><img alt="創用 CC 授權條款" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a> 除另有標示，本著作係採用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW">創用 CC 姓名標示-非商業性-相同方式分享 4.0 國際 授權條款</a>授權。<br/>
+            <span id="last_modified_marker">網站更新時間: 2015-10-06T01:20:31.837416+00:00</span>
+         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">回到頁頂</a></p>
+
+         </div>
+      </div>
+   </div>
+   </div>
+</footer>
+<script src="https://samkuo.me/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://samkuo.me/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="https://samkuo.me/theme/js/respond.min.js"></script>
+
+    <script src="https://samkuo.me/theme/js/bodypadding.js"></script>
+
+    <!-- Disqus -->
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'sampotkuo'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script');
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+    <!-- End Disqus Code -->
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-41152700-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <!-- End Google Analytics Code -->
+<script type="text/javascript">
+    $('#tipue_search_bar').submit(function(ev) {
+        ev.preventDefault();
+        q = $('#tipue_search_input').val()
+        url = window.location.href
+        pathArray = location.href.split( '/' );
+        protocol = pathArray[0];
+        host = pathArray[2];
+        url = protocol + '//' + host;
+        window.location = url + '/search.html#' + q
+    });
+</script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name" : "我是山姆鍋",
+        "url": "https://samkuo.me/",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "http://samkuo.me/search.html?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+
+    <script type="text/javascript">
+    if (window.applicationCache) {
+        window.applicationCache.addEventListener('updateready', function() {
+            if (confirm('新的內容已經下載，是否要刷新頁面?')) {
+                window.location.reload();
+            }
+        });
+    }
+    </script>
+
+</body>
+</html>
