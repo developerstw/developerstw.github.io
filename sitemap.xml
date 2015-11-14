@@ -5,182 +5,189 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://developers.tw/</loc>
-<lastmod>2015-10-16T10:56:08-00:00</lastmod>
+<lastmod>2015-11-14T14:39:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://developers.tw/about/</loc>
-<lastmod>2015-10-16T10:56:08-00:00</lastmod>
+<lastmod>2015-11-14T14:39:04-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://developers.tw/faq/</loc>
-<lastmod>2015-10-16T10:56:08-00:00</lastmod>
+<lastmod>2015-11-14T14:39:04-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://developers.tw/readers/</loc>
-<lastmod>2015-10-16T10:56:08-00:00</lastmod>
+<lastmod>2015-11-14T14:39:04-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://developers.tw/writers/</loc>
-<lastmod>2015-10-16T10:56:08-00:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://developers.tw/blog/funevo-com/</loc>
-<lastmod>2015-10-16T10:55:00+08:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://developers.tw/blog/kheresy-wordpress-com/</loc>
-<lastmod>2015-10-16T10:55:00+08:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://developers.tw/blog/samkuo-me/</loc>
-<lastmod>2015-10-16T10:55:00+08:00</lastmod>
+<lastmod>2015-11-14T14:39:04-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://developers.tw/blog/blog-codylab-com/</loc>
-<lastmod>2015-10-16T10:54:00+08:00</lastmod>
+<lastmod>2015-11-14T14:38:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://developers.tw/blog/blog-gtwang-org/</loc>
-<lastmod>2015-10-16T10:54:00+08:00</lastmod>
+<lastmod>2015-11-14T14:38:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://developers.tw/blog/blog-indeepnight-com/</loc>
-<lastmod>2015-10-16T10:54:00+08:00</lastmod>
+<lastmod>2015-11-14T14:38:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://developers.tw/blog/blog-longwin-com-tw/</loc>
-<lastmod>2015-10-16T10:54:00+08:00</lastmod>
+<lastmod>2015-11-14T14:38:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://developers.tw/blog/blog-miniasp-com/</loc>
-<lastmod>2015-10-16T10:54:00+08:00</lastmod>
+<lastmod>2015-11-14T14:38:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://developers.tw/blog/blog-wu-boy-com/</loc>
-<lastmod>2015-10-16T10:54:00+08:00</lastmod>
+<lastmod>2015-11-14T14:38:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://developers.tw/blog/course-largitdata-com/</loc>
-<lastmod>2015-10-16T10:54:00+08:00</lastmod>
+<lastmod>2015-11-14T14:38:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://developers.tw/blog/fred-zone-blogspot-tw/</loc>
-<lastmod>2015-10-16T10:54:00+08:00</lastmod>
+<lastmod>2015-11-14T14:38:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://developers.tw/blog/funevo-com/</loc>
+<lastmod>2015-11-14T14:38:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://developers.tw/blog/kheresy-wordpress-com/</loc>
+<lastmod>2015-11-14T14:38:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://developers.tw/blog/mrpm-cc/</loc>
-<lastmod>2015-10-16T10:54:00+08:00</lastmod>
+<lastmod>2015-11-14T14:38:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://developers.tw/blog/nelson-pixnet-net-blog/</loc>
-<lastmod>2015-10-16T10:54:00+08:00</lastmod>
+<lastmod>2015-11-14T14:38:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://developers.tw/blog/samkuo-me/</loc>
+<lastmod>2015-11-14T14:38:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://developers.tw/blog/sofree-cc/</loc>
-<lastmod>2015-10-16T10:54:00+08:00</lastmod>
+<lastmod>2015-11-14T14:38:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://developers.tw/blog/teddy-chen-tw-blogspot-tw/</loc>
-<lastmod>2015-10-16T10:54:00+08:00</lastmod>
+<lastmod>2015-11-14T14:38:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://developers.tw/blog/ticore-blogspot-tw/</loc>
-<lastmod>2015-10-16T10:54:00+08:00</lastmod>
+<lastmod>2015-11-14T14:38:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://developers.tw/blog/www-arthurtoday-com/</loc>
+<lastmod>2015-11-14T14:38:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://developers.tw/blog/www-evil-sp-net/</loc>
-<lastmod>2015-10-16T10:54:00+08:00</lastmod>
+<lastmod>2015-11-14T14:38:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://developers.tw/blog/www-puritys-me/</loc>
-<lastmod>2015-10-16T10:54:00+08:00</lastmod>
+<lastmod>2015-11-14T14:38:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://developers.tw/blog/wznote-blogspot-tw/</loc>
-<lastmod>2015-10-16T10:54:00+08:00</lastmod>
+<lastmod>2015-11-14T14:38:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://developers.tw/category/blog/</loc>
-<lastmod>2015-10-16T10:55:00+08:06</lastmod>
+<lastmod>2015-11-14T14:38:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://developers.tw/author/tai-wan-kai-fa-zhe/</loc>
-<lastmod>2015-10-16T10:55:00+08:06</lastmod>
+<lastmod>2015-11-14T14:38:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
